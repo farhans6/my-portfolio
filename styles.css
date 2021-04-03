@@ -1,11 +1,17 @@
 :root {
     --primary-color: #F3F4F6;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
 
 body {
 
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -18,8 +24,8 @@ font-family: 'Montserrat', sans-serif;
     padding: 1rem;
 }
 
-.nav-lists {
-    text-decoration: none;
+li {
+    display: inline;
 }
 
 .text-align {
@@ -27,9 +33,14 @@ font-family: 'Montserrat', sans-serif;
     padding: 1rem;
 }
 
-.first-lists{
+.first-lists {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+}
+
+
+.nav-lists {
+    text-decoration: none;
 }
 
 .img-body {
@@ -38,44 +49,46 @@ font-family: 'Montserrat', sans-serif;
     display: block;
     margin: auto;
 }
+
+.developer {
+    text-align: center;
+}
+
+.developer-color {
+    color: blue;
+}
+
 .center-heading {
     text-align: center;
     padding: 1.5rem;
     /* padding-bottom: 1 rem; */
 }
 
-li {
-    display: inline-block;
-}
-
-.developer{
-    text-align: center;
-}
-.developer-color {
-    color: blue;
-}
-.skills-list {
-    padding: 1rem 7rem;
-    
-}
-
 .space-content {
     padding: 1rem;
+}
+
+.technologies-lists {
+    text-align: center;
+}
+
+.skills-list {
+    padding: 1rem 7rem;
+
 }
 
 .space-content-my-skills {
     padding: 0.5rem 1 rem;
 
 }
-.technologies-lists {
-    text-align: center;
+
+.grey-body {
+    background-color: var(--primary-color);
 }
+
 .projects-content {
     text-align: center;
     padding: .5rem;
-}
-.grey-body {
-    background-color: var(--primary-color);
 }
 
 .btn-projects {
@@ -99,58 +112,58 @@ li {
 
 }
 
-.center-heading-footer{
+.center-heading-footer {
     text-align: center;
     color: #F3F4F6;
     padding-top: 2.5rem;
     padding-bottom: 1rem;
+}
 
-    
-   
+.btn-last {
+    text-align: center;
 }
 
 .social-btn {
     /* padding: .5rem; */
     border-radius: 1rem;
     padding: .5rem 2rem;
-    background-color:rgb(104, 104, 223) ;
+    background-color: rgb(104, 104, 223);
     color: black;
-   
+
     /* margin-left: 100 rem; */
-    
+
     /* margin: 100 rem 50 rem; */
+}
 
 
-}
-.btn-last{
-    text-align: center;
-}
+
 
 /* <----------This is Projects part. ------------>*/
 
-.center-heading-project{
+.center-heading-project {
     text-align: center;
 }
 
 .project-content {
     padding-top: .5 rem;
     margin-left: 2rem;
-    
+
 }
 
-.left-content{
+.left-content {
     margin-left: 5rem;
     padding-bottom: 1.2rem;
 }
 
-.btn-project{
+.btn-project {
     background-color: rgb(120, 120, 238);
     padding: .5rem 1.2rem;
-    
+
     margin: 1rem 2rem;
     border-radius: 1rem;
     text-decoration: none;
-    color: rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
 
 }
 
+/* <----------This is end of Styling Sheets -------->  */

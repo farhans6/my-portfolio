@@ -94,8 +94,19 @@ li {
 
 .footer {
     padding: 100 rem;
-    background-color: var(--primary-color);
+    background-color: rgb(34, 33, 33);
+    padding-bottom: 6rem;
 
+}
+
+.center-heading-footer{
+    text-align: center;
+    color: #F3F4F6;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+
+    
+   
 }
 
 .social-btn {

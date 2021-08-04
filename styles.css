@@ -52,6 +52,7 @@ li {
 
 .developer {
     text-align: center;
+    justify-content: center;
 }
 
 .developer-color {
@@ -66,6 +67,9 @@ li {
 
 .space-content {
     padding: 1rem;
+    padding-left: 3%;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .technologies-lists {
@@ -73,12 +77,15 @@ li {
 }
 
 .skills-list {
-    padding: 1rem 7rem;
+    padding: 1rem 2rem;
+    text-align: center;
 
 }
 
 .space-content-my-skills {
-    padding: 0.5rem 1 rem;
+
+    padding-bottom: 1rem; 
+    
 
 }
 
@@ -94,7 +101,7 @@ li {
 .btn-projects {
     padding: 0.5rem;
     background-color: rgb(104, 104, 223);
-    color: rgb(0, 0, 0);
+    color: rgb(1, 0, 2);
     /* border-bottom-left-radius : 1rem;
     border-top-right-radius: 1rem;
     border-top-left-radius : 1rem;
@@ -120,19 +127,23 @@ li {
 }
 
 .btn-last {
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .social-btn {
-    /* padding: .5rem; */
+    /* padding: .5rem;  */
     border-radius: 1rem;
-    padding: .5rem 2rem;
-    background-color: rgb(104, 104, 223);
-    color: black;
+    padding: .3rem 1rem;
+    background-color: rgb(152, 152, 190);
+    color: black; 
+    font-size: 15px;
 
-    /* margin-left: 100 rem; */
+    /* margin-left: 100rem;
 
-    /* margin: 100 rem 50 rem; */
+    margin: 100rem 50rem; */
 }
 
 
@@ -167,3 +178,52 @@ li {
 }
 
 /* <----------This is end of Styling Sheets -------->  */
+
+@media only screen and (max-width: 600px){
+    .navigation-bar {
+    background-color: #8080e2;
+    border-bottom-left-radius: 1rem;
+}
+
+.btn-project{
+    background-color: rgb(120, 120, 238);
+    padding: .3rem 1rem;
+    margin: .5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.btn-projects{
+    background-color: rgb(120, 120, 238);
+    padding: .3rem 1rem;
+    margin: .5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* justify-content: center; */
+}
+
+.social-btn {
+    /* padding: .5rem;  */
+    border-radius: .5rem;
+    padding: .1.5rem .5rem;
+    background-color: rgb(152, 152, 190);
+    color: black; 
+    font-size: 10px;
+    justify-content: space-evenly;
+   
+}
+
+.technologies-lists {
+    text-align: center;
+    font-size: 15px;
+}
+
+.skills-list{
+    /* font-size: 10px; */
+}
+
+}
